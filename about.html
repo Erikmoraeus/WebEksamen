@@ -4,71 +4,88 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <title>About</title>
+    <link href="css/fonts/css/fontawesome.css" rel="stylesheet">
+    <link href="css/fonts/css/brands.css" rel="stylesheet">
+    <link href="css/fonts/css/solid.css" rel="stylesheet">
+    <title>Home</title>
 </head>
 <body>
-    <header>
-        <div class="nav">
-            <a id="logo">Logobilde</a>
-            <a href="index.html">Home</a>
-            <a href="products.html">Portfolio</a>
-            <a href="about.html">About</a>
-            <button id="knapp" href="about.html">Contact</button>
-        </div>
-    </header>
+<header>
+    <div class="nav">
+        <img href ="logo" src="css/ressurser/ressurser/logo1.png" alt="logo for nettside">
+        <ul class="nav-link">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><button id="knapp" href="about.html">Contact</button></li>
+        </ul>
+    </div>
+</header>
     <main>
         <section id="grid-container">
         <section id="companyname">
-            <!--Her skal det ligge et bakgrunnsbilde også-->
+            <img src="css/ressurser/ressurser/business-2846221_1280.jpg" alt="bilde av pc og diverse kontorutstyr">
+            <!--Image by <a href="https://pixabay.com/users/6689062-6689062/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2846221">6689062</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2846221">Pixabay</a>-->
             <h4>Company name</h4>
             <h3>About Our Company</h3>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority
                 have suffered alteration in some form, by injected humour, or randomised words which 
-                don't look even slightly believable. If you are going to use a passage of Lorem Ipsum,
-                you need to be sure there isn't anything embarrassing hidden in the middle of text.
+                don't look even slightly believable.
             </p>
             <button id="knapp" href="#sendusamessage">Get in touch with us</button>
-            
         </section>
-        <section id="ourservices">
+        <article class="headourservice">
             <h2>Our Services</h2>
-            <article>
-                <a>ikon</a>
-                <h4>Branding</h4>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
-            </article>
-            <article>
-                <a>ikon</a>
-                <h4>Branding</h4>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
-            </article>
-            <article>
-                <a>ikon</a>
-                <h4>Branding</h4>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
-            </article>
-            <article>
-                <a>ikon</a>
-                <h4>Branding</h4>
-                <p>It is a long established fact that a reader will be distracted by the readable content of a page</p>
-            </article>
+        </article>
+        <section id="ourservices">
+            <ul>
+                <li><i class="fa-solid fa-people-group"></i></li>
+                <li><h4>Branding</h4></li>
+                    <li><p>It is a long established fact that a reader will be distracted by the readable content of a page</p></li>
+            </ul>
+            <ul>
+                <li><i class="fa-solid fa-cloud-arrow-up"></i></li>
+                    <li><h4>Branding</h4></li>
+                    <li><p>It is a long established fact that a reader will be distracted by the readable content of a page</p></li>
+            </ul>
+            <ul>
+                <li><i class="fa-solid fa-code"></i></li>
+                    <li><h4>Branding</h4></li>
+                <li><p>It is a long established fact that a reader will be distracted by the readable content of a page</p></li>
+            </ul>
+            <ul>    
+                <li><i class="fa-solid fa-wifi"></i></li>
+                    <li><h4>Branding</h4></li>
+                <li><p>It is a long established fact that a reader will be distracted by the readable content of a page</p></li>
+              </ul>
         </section>
         <section id="someofourclients">
             <h2>Some of our clients</h2>
-            <a>ikon</a> 
-            <a>ikon</a> 
-            <a>ikon</a>
+            <ul>
+                <li><img src="css/ressurser/ressurser/logo1.png" alt="her er det logo til en av våre kunder"></li>
+                <li><img src="css/ressurser/ressurser/logo2.png" alt="her er det logo til en av våre kunder"></li>
+                <li><img src="css/ressurser/ressurser/logo3.png" alt="her er det logo til en av våre kunder"></li>
+            </ul>
         </section>
-        <h2>Contact us</h2>
         <section id="sendusamessage">
-            <h4>Send us a message</h4>
-            <p>Name</p>
-            <input type="text" class="søkefelt" placeholder="Ola Nordmann..">
-            <p>Subject</p>
-            <input type="text" class="søkefelt" placeholder="Branding..">
-            <p>Message</p>
-            <textarea id="message" name="message" rows="5" cols="20"></textarea>
-            <button id="knapp" href="#">Send message</button>
+            <h2>Contact us</h2>
+            <ul id="venstre">
+                <li><h4>Send us a message</h4></li>
+                <li><p>Name</p></li>
+                <li><input type="text" class="søkefelt" placeholder="Ola Nordmann.."></li>
+                <li><p>Subject</p></li>
+                <li><input type="text" class="søkefelt" placeholder="Branding.."></li>
+                <li><p>Message</p></li>
+                <li><textarea id="message" name="message" rows="5" cols="20"></textarea></li>
+                <li><button id="knapp" href="#">Send message</button></li>
+            </ul>
+            <ul id="hoyre">
+                <li><h4>Contact information</h4></li>
+                <li><p>It is a long established fact that a reader will be distracted by the readable content of a page</p></li>
+                <li><p><i class="fa-solid fa-location-pin"></i>B R A Veien 4, 1757 Halden</p></li>
+                <li><p><i class="fa-solid fa-phone"></i>69 60 80 00</p></li>
+                <li><i class="fa-solid fa-envelope"></i><a href="mailto:postmottak@hiof.no">postmottak@hiof.no</a></li>
+            </ul>
         </section>
         <!--kartsekjson-->
         <img src="#" alt="bilde av kart om halden høgskole">
@@ -76,10 +93,11 @@
     </main>
     <footer>
         <div class="footer">
-            <a id="logo">Logobilde</a>
-            <a href="https://www.facebook.com/?locale=nb_NO">facebook</a>
-            <a href="https://www.instagram.com/">instagram</a>
-            <a href="https://www.linkedin.com/">linkedin</a>
+            <img href ="logo" src="css/ressurser/ressurser/logo1.png" alt="logo for nettside">
+            <h2>Companyrights companyname 2023</h2>
+            <a id="facebook" href="https://www.facebook.com/?locale=nb_NO"><i class="fa-brands fa-square-facebook"></i></a>
+            <a id="instagram" href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+            <a id="linkedin" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </footer>
 </body>
