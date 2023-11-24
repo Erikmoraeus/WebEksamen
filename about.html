@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href="css/fonts/css/fontawesome.css" rel="stylesheet">
     <link href="css/fonts/css/brands.css" rel="stylesheet">
@@ -11,20 +14,22 @@
 </head>
 <body>
 <header>
-    <div class="nav">
-        <img href ="logo" src="css/ressurser/ressurser/logo1.png" alt="logo for nettside">
-        <ul class="nav-link">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><button id="knapp" href="about.html">Contact</button></li>
+    <div class="nav" role="navigation">
+        <a href="./index.html">
+            <img src="css/ressurser/ressurser/logo1.png" alt="logo for nettside" title="Company logo">
+          </a>
+          <ul class="nav-link" aria-label="Navigation Links">
+            <li><a href="index.html" title="Home Page">Home</a></li>
+            <li><a href="products.html" title="Portfolio">Portfolio</a></li>
+            <li><a href="about.html" title="About Us">About</a></li>
+            <li><a id="knapp" href="about.html#sendusamessage" title="Contact Us">Contact</a></li>
         </ul>
     </div>
 </header>
     <main>
         <section id="grid-container">
         <section id="companyname">
-            <img src="css/ressurser/ressurser/business-2846221_1280.jpg" alt="bilde av pc og diverse kontorutstyr">
+            <img src="css/ressurser/ressurser/business-2846221_1280.jpg" alt="bilde av pc og diverse kontorutstyr" title="Portfolio background image">
             <!--Image by <a href="https://pixabay.com/users/6689062-6689062/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2846221">6689062</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2846221">Pixabay</a>-->
             <h4>Company name</h4>
             <h3>About Our Company</h3>
@@ -32,29 +37,29 @@
                 have suffered alteration in some form, by injected humour, or randomised words which 
                 don't look even slightly believable.
             </p>
-            <button id="knapp" href="#sendusamessage">Get in touch with us</button>
+            <a class="knapp" href="#sendusamessage" title="Get in touch with us">Get in touch with us</a>
         </section>
         <article class="headourservice">
             <h2>Our Services</h2>
         </article>
         <section id="ourservices">
             <ul>
-                <li><i class="fa-solid fa-people-group"></i></li>
+                <li><i class="fa-solid fa-people-group" aria-label="People Group Icon"></i></li>
                 <li><h4>Branding</h4></li>
                     <li><p>It is a long established fact that a reader will be distracted by the readable content of a page</p></li>
             </ul>
             <ul>
-                <li><i class="fa-solid fa-cloud-arrow-up"></i></li>
+                <li><i class="fa-solid fa-cloud-arrow-up" aria-label="Cloud Arrow Icon"></i></li>
                     <li><h4>Branding</h4></li>
                     <li><p>It is a long established fact that a reader will be distracted by the readable content of a page</p></li>
             </ul>
             <ul>
-                <li><i class="fa-solid fa-code"></i></li>
+                <li><i class="fa-solid fa-code" aria-label="Coding Icon"></i></li>
                     <li><h4>Branding</h4></li>
                 <li><p>It is a long established fact that a reader will be distracted by the readable content of a page</p></li>
             </ul>
             <ul>    
-                <li><i class="fa-solid fa-wifi"></i></li>
+                <li><i class="fa-solid fa-wifi" aria-label="Wifi Icon"></i></li>
                     <li><h4>Branding</h4></li>
                 <li><p>It is a long established fact that a reader will be distracted by the readable content of a page</p></li>
               </ul>
@@ -62,9 +67,9 @@
         <section id="someofourclients">
             <h2>Some of our clients</h2>
             <ul>
-                <li><img src="css/ressurser/ressurser/logo1.png" alt="her er det logo til en av våre kunder"></li>
-                <li><img src="css/ressurser/ressurser/logo2.png" alt="her er det logo til en av våre kunder"></li>
-                <li><img src="css/ressurser/ressurser/logo3.png" alt="her er det logo til en av våre kunder"></li>
+                <li><img src="css/ressurser/ressurser/logo1.png" alt="her er det logo til en av våre kunder" title="Client Logo 1"></li>
+                <li><img src="css/ressurser/ressurser/logo2.png" alt="her er det logo til en av våre kunder" title="Client Logo 2"></li>
+                <li><img src="css/ressurser/ressurser/logo3.png" alt="her er det logo til en av våre kunder" title="Client Logo 3"></li>
             </ul>
         </section>
         <section id="sendusamessage">
@@ -76,28 +81,31 @@
                 <li><p>Subject</p></li>
                 <li><input type="text" class="søkefelt" placeholder="Branding.."></li>
                 <li><p>Message</p></li>
-                <li><textarea id="message" name="message" rows="5" cols="20"></textarea></li>
-                <li><button id="knapp" href="#">Send message</button></li>
+                <li><textarea id="message" name="message" rows="5" cols="30"></textarea></li>
+                <li><a class="knapp" href="#" title="Send message">Send message</a></li>
             </ul>
             <ul id="hoyre">
                 <li><h4>Contact information</h4></li>
                 <li><p>It is a long established fact that a reader will be distracted by the readable content of a page</p></li>
-                <li><p><i class="fa-solid fa-location-pin"></i>B R A Veien 4, 1757 Halden</p></li>
-                <li><p><i class="fa-solid fa-phone"></i>69 60 80 00</p></li>
-                <li><i class="fa-solid fa-envelope"></i><a href="mailto:postmottak@hiof.no">postmottak@hiof.no</a></li>
+                <li><p><i class="fa-solid fa-location-pin"></i>     B R A Veien 4, 1757 Halden</p></li>
+                <li><p><i class="fa-solid fa-phone"></i>    69 60 80 00</p></li>
+                <li><i class="fa-solid fa-envelope"></i><a href="mailto:postmottak@hiof.no">    postmottak@hiof.no</a></li>
             </ul>
         </section>
-        <!--kartsekjson-->
-        <img src="#" alt="bilde av kart om halden høgskole">
+        <section class="kart">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2255.1274444388528!2d11.349657013814365!3d59.12880361164826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464412f6cf4d491d%3A0x4495a486ebe83bb4!2sB%20R%20A%20Veien%204%2C%201757%2C%201783%20Halden!5e0!3m2!1sno!2sno!4v1700831900612!5m2!1sno!2sno" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
         </section>
     </main>
     <footer>
         <div class="footer">
-            <img href ="logo" src="css/ressurser/ressurser/logo1.png" alt="logo for nettside">
+            <a href="./index.html">
+                <img src="css/ressurser/ressurser/logo1.png" alt="logo for nettside" title="Company logo">
+              </a>
             <h2>Companyrights companyname 2023</h2>
-            <a id="facebook" href="https://www.facebook.com/?locale=nb_NO"><i class="fa-brands fa-square-facebook"></i></a>
-            <a id="instagram" href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
-            <a id="linkedin" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a id="facebook" href="https://www.facebook.com/?locale=nb_NO" title="Visit our Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+            <a id="instagram" href="https://www.instagram.com/" title="Visit our Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+            <a id="linkedin" href="https://www.linkedin.com/" title="Visit our Linkedin"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </footer>
 </body>

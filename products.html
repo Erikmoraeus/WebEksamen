@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href="css/fonts/css/fontawesome.css" rel="stylesheet">
     <link href="css/fonts/css/brands.css" rel="stylesheet">
@@ -11,32 +14,35 @@
 </head>
 <body>
 <header>
-    <div class="nav">
-        <img href ="logo" src="css/ressurser/ressurser/logo1.png" alt="logo for nettside">
-        <ul class="nav-link">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><button id="knapp" href="about.html">Contact</button></li>
+    <div class="nav" role="navigation">
+        <a href="./index.html">
+            <img src="css/ressurser/ressurser/logo1.png" alt="logo for nettside" title="Company logo">
+          </a>
+          <ul class="nav-link" aria-label="Navigation Links">
+            <li><a href="index.html" title="Home Page">Home</a></li>
+            <li><a href="products.html" title="Portfolio">Portfolio</a></li>
+            <li><a href="about.html" title="About Us">About</a></li>
+            <li><a id="knapp" href="about.html#sendusamessage" title="Contact Us">Contact</a></li>
         </ul>
     </div>
 </header>
     <main>
         <section id="grid-container">
         <article id="Portfolio">
-            <img src="css/ressurser/ressurser/journal-2850091_1280.jpg">
+            <img src="css/ressurser/ressurser/journal-2850091_1280.jpg" alt="bakgrunnsbilde av bok og pen" title="Portfolio Background Image">
             <!--Image by <a href="https://pixabay.com/users/6689062-6689062/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2850091">6689062</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2850091">Pixabay</a>-->
             <h1>Portfolio</h1>
         </article>
         <section id="treknapper">
         <h1>Explore previous jobs</h1>
-            <button class="previousjobs">Branding</button>
-            <button class="previousjobs">Design</button>
-            <button class="previousjobs">Development</button>
+            <a class="previousjobs" href="#branding" title="Explore branding jobs">Branding</a>
+            <a class="previousjobs" href="#design" title="Explore design jobs">Design</a>
+            <a class="previousjobs" href="#development" title="Explore development jobs">Development</a>
         </section>
         <article class="gulunderstrek">
             <h1>Branding</h1>
         </article>
+        <section id="branding">
         <section class="bilde-grid">
             <article class="bilde-containerliten">
                 <img  src="https://placehold.co/400x400" alt="bilde i 400x400 px">
@@ -51,51 +57,58 @@
                 <h3>A long established fact</h3>
             </article>
         </section>
+        </section>
         <section class="bilde-grid">
             <article class="bilde-container">
-                <img  src="https://placehold.co/500x500" alt="bilde i 400x400 px men skal være større">
+                <img  src="https://placehold.co/500x500" alt="bilde i 00x500">
                 <h3>a long established fact</h3>
             </article>
         </section>
         <article class="gulunderstrek">
             <h1>Design</h1>
         </article>
+        <section id="design">
         <section class="bilde-grid">
             <article class="bilde-containerliten">
-                <img  src="https://placehold.co/400x400" alt="bilde i 400x400 px">
+                <img  src="https://placehold.co/400x400" alt="bilde i 400x400">
                 <h3>A long established fact</h3>
             </article>
             <article class="bilde-containerliten">
-                <img  src="https://placehold.co/400x400" alt="bilde i 400x400 px">
+                <img  src="https://placehold.co/400x400" alt="bilde i 400x400">
                 <h3>A long established fact</h3>
             </article>
             <article class="bilde-containerliten">
-                <img  src="https://placehold.co/400x400" alt="bilde i 400x400 px">
+                <img  src="https://placehold.co/400x400" alt="bilde i 400x400">
                 <h3>A long established fact</h3>
             </article>
+        </section>
         </section>
         <article class="gulunderstrek">
             <h1>Development</h1>
         </article>
+        <section id="development">
         <section class="bilde-grid">
             <article class="bilde-containerdev">
-                <img  src="https://placehold.co/600x600" alt="bilde i 400x400 px">
+                <img  src="https://placehold.co/600x600" alt="bilde i 400x400">
                 <h3>A long established fact</h3>
             </article>
             <article class="bilde-containerdev">
-                <img  src="https://placehold.co/600x600" alt="bilde i 400x400 px">
+                <img  src="https://placehold.co/600x600" alt="bilde i 400x400">
                 <h3>A long established fact</h3>
             </article>
         </section> 
         </section>
+        </section>
     </main>
     <footer>
         <div class="footer">
-            <img href ="logo" src="css/ressurser/ressurser/logo1.png" alt="logo for nettside">
+            <a href="./index.html">
+                <img src="css/ressurser/ressurser/logo1.png" alt="logo for nettside" title="Company logo">
+              </a>
             <h2>Companyrights companyname 2023</h2>
-            <a id="facebook" href="https://www.facebook.com/?locale=nb_NO"><i class="fa-brands fa-square-facebook"></i></a>
-            <a id="instagram" href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
-            <a id="linkedin" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+            <a id="facebook" href="https://www.facebook.com/?locale=nb_NO" title="Visit our Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+            <a id="instagram" href="https://www.instagram.com/" title="Visit our Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+            <a id="linkedin" href="https://www.linkedin.com/" title="Visit our Linkedin"><i class="fa-brands fa-linkedin"></i></a>
         </div>
     </footer>
 </body>

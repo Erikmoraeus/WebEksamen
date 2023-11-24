@@ -3,6 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This website is made for Erik Moræus exam where he has struggeled alot to make this.">
+    <meta name="keywords" content="company, oursite">
+    <meta name="author" content="Erik Moræus">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link href="css/fonts/css/fontawesome.css" rel="stylesheet">
     <link href="css/fonts/css/brands.css" rel="stylesheet">
@@ -11,14 +17,16 @@
 </head>
 <body>
 <header>
-    <div class="nav">
-        <img href ="logo" src="css/ressurser/ressurser/logo1.png" alt="logo for nettside">
-        <ul class="nav-link">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="products.html">Portfolio</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><button id="knapp" href="about.html">Contact</button></li>
-        </ul>
+    <div class="nav" role="navigation">
+        <a href="./index.html">
+            <img src="css/ressurser/ressurser/logo1.png" alt="logo for nettside" title="Company logo">
+          </a>
+          <ul class="nav-link">
+            <li><a href="index.html" title="Home page">Home</a></li>
+            <li><a href="products.html" title="Portfolio page">Portfolio</a></li>
+            <li><a href="about.html" title="About page">About</a></li>
+            <li><a id="knapp" href="about.html#sendusamessage" title="Contact page">Contact</a></li>
+          </ul>
     </div>
 </header>
 <main>
@@ -26,7 +34,7 @@
     <section id="compelingheadline">
         <h1>Compeling headline</h1>
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        <button id="knapp" href="about.html">Read more about our services</button>
+        <a class="knapp" href="#services" title="Read more about services">Read more about our services</a>
     </section>
     <section id="engagingsubheading">
         <h2>Engaging subheading, what can you celp your visitators with</h2>
@@ -36,7 +44,7 @@
         <img  src="https://placehold.co/200x200" alt="bilde i 400x400 px">
         <h2>About Our Company</h2>
         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-        <button id="knapp" href="about.html">Read more about us</button>
+        <a class="knapp" href="about.html" title="Read more about us">Read more about us</a>
     </section>
     <section id="services">
         <h3>Our services</h3>
@@ -54,19 +62,21 @@
     <section id="newsletter">
         <h3>Sign up for our newsletter</h3>
         <article class="newsletter">
-            <input type="text" class="søkefelt" placeholder="">
-            <button class="søkeknapp" href="#">Sign me up</button>
+            <input type="text" class="søkefelt" placeholder="Enter your email address" title="Email address">
+            <a class="søkeknapp" href="#">Sign me up</a>
         </article>
     </section>
     </section>
 </main>
 <footer>
     <div class="footer">
-        <img href ="logo" src="css/ressurser/ressurser/logo1.png" alt="logo for nettside">
+        <a href="./index.html">
+            <img src="css/ressurser/ressurser/logo1.png" alt="logo for nettside" title="Company logo">
+          </a>
         <h2>Companyrights companyname 2023</h2>
-        <a id="facebook" href="https://www.facebook.com/?locale=nb_NO"><i class="fa-brands fa-square-facebook"></i></a>
-        <a id="instagram" href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
-        <a id="linkedin" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+        <a id="facebook" href="https://www.facebook.com/?locale=nb_NO" title="Visit our Facebook"><i class="fa-brands fa-square-facebook"></i></a>
+        <a id="instagram" href="https://www.instagram.com/" title="Visit our Instagram"><i class="fa-brands fa-square-instagram"></i></a>
+        <a id="linkedin" href="https://www.linkedin.com/" title="Visit our Linkedin"><i class="fa-brands fa-linkedin"></i></a>
     </div>
 </footer>
 </body>
