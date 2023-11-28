@@ -23,10 +23,31 @@ body {
     flex-direction: column;
     margin-right: 20px;
 }
+.nav-link .navhome{
+    background-color: #ffffff;
+    color: #000;
+    text-decoration: underline 4px;
+    text-decoration-color: yellow;
+    font-weight: bold;
+}
+.nav-link .navport{
+    background-color: #ffffff;
+    color: #000;
+    text-decoration: underline 4px;
+    text-decoration-color: yellow;
+    font-weight: bold;
+}
+.nav-link .navabout{
+    background-color: #ffffff;
+    color: #000;
+    text-decoration: underline 4px;
+    text-decoration-color: yellow;
+    font-weight: bold;
+}
 .nav-link li a{
     text-decoration: none;
     transition: color 0.5s ease-in-out, text-decoration-color 0.5s ease-in-out;
-    color: #000;
+    color: #666;
 }
 .nav-link li a :hover{    
     color: black;
@@ -78,7 +99,6 @@ body {
 }
 /*about our company*/
 #aboutourcompany{
-    background-color: #e6bd43;
     text-align: center;
     border: 1px solid black;
     padding: 60px;
@@ -404,34 +424,19 @@ body {
 .nav-link {
     float: right;
     margin-top: 40px;
-  }
+}
   
 .nav-link li {
     list-style-type: none;
     margin-right: 20px;
     float: left;
-    font-weight: bold;
-    color: #666;
-}
-  
-.nav-link li a {
-    text-decoration: none;
-    color: #666;
 }
 
 .nav-link li a:hover{
-    text-decoration: underline 4px;
-    text-decoration-color: yellow;
-    color: #000;
+    background-color: #666;
+    color: #e6bd43;
 }
-.nav-link li.active {
-    background-color: #e6bd43;
-    color: #fff;
-    padding: 10px;
-    text-decoration: underline 4px;
-    text-decoration-color: yellow;
-    cursor: default;
-}
+
 .nav #knapp{
     float: right;
     background-color: #e6bd43;
