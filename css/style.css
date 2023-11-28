@@ -105,7 +105,7 @@ body {
 }
 #aboutourcompany img {
     float: left;
-  }
+}
 #aboutourcompany .knapp{
     background-color: #e6bd43;
     color: black;
@@ -222,7 +222,6 @@ body {
     border-bottom: 3px solid #e6bd43;
     font-size: 30px;
 }
-/*Development*/
 /*About siden*/
 /*Company name med bilde*/
 #companyname img {
@@ -358,8 +357,8 @@ body {
 /*footer*/
 .footer {
     display: flex;
-    flex-direction: column; /* Change from row to column */
-    justify-content: center; /* Center the footer elements vertically */
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background-color: #000000;
     padding: 20px;
@@ -451,7 +450,6 @@ body {
     padding: 10px;
 }
 /*indeks siden*/
-
 /*Compeling headline*/
 #compelingheadline{
     text-align: center;
@@ -485,7 +483,7 @@ body {
 }
 #aboutourcompany img {
     float: left;
-  }
+}
 #aboutourcompany #knapp{
     background-color: #ffffff;
     color: black;
@@ -596,7 +594,6 @@ background-color: #ffffff;
     transform: scale(1.1);
 }
 /*Design*/
-
 /*development*/
 .bilde-grid {
     display: flex;
@@ -757,7 +754,6 @@ img {
     padding-right: 70px;
 }
 /*kart*/
-/*kart*/
 .kart img{
     width: 100%;
     height: 200px;
@@ -780,7 +776,6 @@ footer {
   
 .footer img {
     width: 50px;
- 
 }
   
 .footer h2 {
