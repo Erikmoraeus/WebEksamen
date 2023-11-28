@@ -1,9 +1,16 @@
 Dette er dokumentet til Webeksamen for Erik Moræus
 
-jeg sikter på karakter B
+jeg sikter på karakter B.
 
-
+jeg hadde lagt inn videoen som skulle bli brukt som bakgrunn men klarte ikke å få plassert den riktig på mobile, så da fjernet jeg den. 
 
 Bilder og kilder
 - https://pixabay.com/photos/business-computer-mobile-smartphone-2846221/ som er hentet fra Pixabay
 - https://pixabay.com/photos/journal-write-blank-pages-notes-2850091/ som er hentet fra Pixabay
+
+siden jeg brukte for å validere koden min
+https://validator.w3.org/nu/#textarea
+
+har brukt chatGPT til å sjekke koden min for feil hvis jeg har gjort feil underveis.
+https://chat.openai.com/
+
