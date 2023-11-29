@@ -7,6 +7,7 @@ jeg hadde lagt inn videoen som skulle bli brukt som bakgrunn men klarte ikke å 
 Bilder og kilder
 - https://pixabay.com/photos/business-computer-mobile-smartphone-2846221/ som er hentet fra Pixabay
 - https://pixabay.com/photos/journal-write-blank-pages-notes-2850091/ som er hentet fra Pixabay
+- https://www.lipsum.com/
 
 siden jeg brukte for å validere koden min
 https://validator.w3.org/nu/#textarea
